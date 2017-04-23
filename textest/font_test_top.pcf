@@ -1,0 +1,16 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Mar 31 13:07:38 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+PIN clk_pin<0> = BEL "clk" PINNAME PAD;
+PIN "clk_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "rgb<0>" LOCATE = SITE "T7" LEVEL 1;
+COMP "rgb<1>" LOCATE = SITE "V6" LEVEL 1;
+COMP "rgb<2>" LOCATE = SITE "N7" LEVEL 1;
+COMP "hsync" LOCATE = SITE "N6" LEVEL 1;
+COMP "vsync" LOCATE = SITE "P7" LEVEL 1;
+COMP "reset" LOCATE = SITE "T10" LEVEL 1;
+SCHEMATIC END;
+

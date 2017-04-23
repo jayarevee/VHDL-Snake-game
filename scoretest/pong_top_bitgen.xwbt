@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=Z:\Documents\448\Lab4\scoretest\pong_top.ncd
+OUTFILE=Z:\Documents\448\Lab4\scoretest\pong_top.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=Z:\Documents\448\Lab4\scoretest
+LICENSE=WebPack
+USER_INFO=211015572_0_0_312

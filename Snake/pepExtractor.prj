@@ -1,0 +1,7 @@
+work	"DIA.vhd"
+work	"list_ch13_01_font_rom.vhd"
+work	"list_ch13_08_pong_counter.vhd"
+work	"rect_top.vhd"
+work	"snakie.vhd"
+work	"snakie_text.vhd"
+work	"vga_sync.vhd"

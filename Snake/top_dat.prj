@@ -1,0 +1,7 @@
+vhdl work "list_ch13_01_font_rom.vhd"
+vhdl work "DIA.vhd"
+vhdl work "vga_sync.vhd"
+vhdl work "snakie_text.vhd"
+vhdl work "snakie.vhd"
+vhdl work "list_ch13_08_pong_counter.vhd"
+vhdl work "rect_top.vhd"

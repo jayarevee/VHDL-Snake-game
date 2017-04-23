@@ -1,0 +1,1238 @@
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+xst -intstyle ise -ifn "Z:/Documents/448/Lab4/lab4/top_dat.xst" -ofn "Z:/Documents/448/Lab4/lab4/top_dat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab4_exercise1_nexys3.ucf -p xc6slx16-csg324-3 top_dat.ngc top_dat.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_dat_map.ncd top_dat.ngd top_dat.pcf 
+par -w -intstyle ise -ol high -mt off top_dat_map.ncd top_dat.ncd top_dat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_dat.twx top_dat.ncd -o top_dat.twr top_dat.pcf -ucf lab4_exercise1_nexys3.ucf 
+bitgen -intstyle ise -f top_dat.ut top_dat.ncd 

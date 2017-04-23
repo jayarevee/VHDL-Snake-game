@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1369" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 492: Possible infinite loop; process does not have a wait statement
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1369" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 647: Possible infinite loop; process does not have a wait statement
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1369" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\rect_top.vhd" Line 64: Possible infinite loop; process does not have a wait statement
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 214: Assignment to <arg fmt="%s" index="1">loadbar_on</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 224: Assignment to <arg fmt="%s" index="1">l1bar_on</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 237: Assignment to <arg fmt="%s" index="1">r1bar_on</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 250: Assignment to <arg fmt="%s" index="1">t1bar_on</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 263: Assignment to <arg fmt="%s" index="1">b1bar_on</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 405: <arg fmt="%s" index="1">body1_y_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 406: <arg fmt="%s" index="1">body1_x_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 407: <arg fmt="%s" index="1">body2_y_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 408: <arg fmt="%s" index="1">body2_x_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 411: <arg fmt="%s" index="1">y_delta_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 412: <arg fmt="%s" index="1">body1_x_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 413: <arg fmt="%s" index="1">body1_x_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 414: <arg fmt="%s" index="1">body1_y_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 415: <arg fmt="%s" index="1">body2_x_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 416: <arg fmt="%s" index="1">body1_x_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 417: <arg fmt="%s" index="1">body1_y_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 419: <arg fmt="%s" index="1">y_delta_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 420: <arg fmt="%s" index="1">body1_y_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 421: <arg fmt="%s" index="1">body2_y_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 423: <arg fmt="%s" index="1">y_delta_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 424: <arg fmt="%s" index="1">body1_x_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 425: <arg fmt="%s" index="1">body1_x_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 426: <arg fmt="%s" index="1">body1_y_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 427: <arg fmt="%s" index="1">body2_x_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 428: <arg fmt="%s" index="1">body1_x_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 429: <arg fmt="%s" index="1">body1_y_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 431: <arg fmt="%s" index="1">y_delta_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 432: <arg fmt="%s" index="1">body1_y_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 433: <arg fmt="%s" index="1">body2_y_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 435: <arg fmt="%s" index="1">x_delta_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 436: <arg fmt="%s" index="1">body1_y_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 437: <arg fmt="%s" index="1">body1_y_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 438: <arg fmt="%s" index="1">body1_x_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 439: <arg fmt="%s" index="1">body2_y_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 440: <arg fmt="%s" index="1">body1_y_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 441: <arg fmt="%s" index="1">body1_x_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 443: <arg fmt="%s" index="1">x_delta_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 444: <arg fmt="%s" index="1">body1_x_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 445: <arg fmt="%s" index="1">body2_x_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 447: <arg fmt="%s" index="1">x_delta_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 448: <arg fmt="%s" index="1">body1_y_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 449: <arg fmt="%s" index="1">body1_y_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 450: <arg fmt="%s" index="1">body1_x_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 451: <arg fmt="%s" index="1">body2_y_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 452: <arg fmt="%s" index="1">body1_y_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 453: <arg fmt="%s" index="1">body1_x_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 455: <arg fmt="%s" index="1">x_delta_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 456: <arg fmt="%s" index="1">body1_x_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 457: <arg fmt="%s" index="1">body2_x_reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 472: <arg fmt="%s" index="1">clk</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 482: <arg fmt="%s" index="1">count</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\DIA.vhd" Line 95: <arg fmt="%s" index="1">off</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 733: <arg fmt="%s" index="1">blank</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 735: <arg fmt="%s" index="1">blank</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 737: <arg fmt="%s" index="1">rd_body2_on</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 739: <arg fmt="%s" index="1">lbar_on</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 740: <arg fmt="%s" index="1">bar_rgb</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 741: <arg fmt="%s" index="1">drd1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 742: <arg fmt="%s" index="1">dmnd_rgb1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 743: <arg fmt="%s" index="1">drd2</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 744: <arg fmt="%s" index="1">dmnd_rgb2</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 745: <arg fmt="%s" index="1">drd3</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 746: <arg fmt="%s" index="1">dmnd_rgb3</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 747: <arg fmt="%s" index="1">drd4</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 748: <arg fmt="%s" index="1">dmnd_rgb4</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 749: <arg fmt="%s" index="1">drd5</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 750: <arg fmt="%s" index="1">dmnd_rgb5</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 751: <arg fmt="%s" index="1">drd6</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 752: <arg fmt="%s" index="1">dmnd_rgb6</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 753: <arg fmt="%s" index="1">drd7</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 754: <arg fmt="%s" index="1">dmnd_rgb7</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 755: <arg fmt="%s" index="1">drd8</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie.vhd" Line 756: <arg fmt="%s" index="1">dmnd_rgb8</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\snakie_text.vhd" Line 28: Net &lt;<arg fmt="%s" index="1">logo_on</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"\\vmware-host\shared folders\Documents\448\Lab4\lab4\rect_top.vhd" Line 35: Net &lt;<arg fmt="%s" index="1">ball[1]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">ball</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">outmode&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">flagcount</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">reset</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">video_on</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">reset</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">video_on</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">reset</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">video_on</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">reset</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">video_on</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">reset</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">video_on</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">reset</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">video_on</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">reset</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">video_on</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">reset</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">video_on</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">ball</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">reset</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">logo_on</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">dc1_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">snakie_unit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">dc2_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">snakie_unit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">dc3_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">snakie_unit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">dc4_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">snakie_unit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">dc5_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">snakie_unit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">dc6_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">snakie_unit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">dc7_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">snakie_unit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">dc8_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">snakie_unit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">outmode_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">snakie_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">mode_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">snakie_unit</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3226" delta="new" >The RAM &lt;<arg fmt="%s" index="1">Mram_data</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_char_addr_r</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">dc1_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">snakie</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">dc2_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">snakie</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">dc3_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">snakie</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">dc4_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">snakie</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">dc5_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">snakie</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">dc6_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">snakie</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">dc7_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">snakie</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">dc8_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">snakie</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">snakie_unit/mode_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_dat</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">snakie_unit/outmode_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_dat</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snakie_unit/off_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top_dat</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;snakie_unit/dc1_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snakie_unit/off_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top_dat</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;snakie_unit/dc2_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snakie_unit/off_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top_dat</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;snakie_unit/dc3_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snakie_unit/off_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top_dat</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;snakie_unit/dc4_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snakie_unit/off_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top_dat</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;snakie_unit/dc5_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snakie_unit/off_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top_dat</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;snakie_unit/dc6_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snakie_unit/off_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top_dat</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;snakie_unit/dc7_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snakie_unit/off_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top_dat</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;snakie_unit/dc8_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

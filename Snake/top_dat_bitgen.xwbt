@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=Z:\Documents\448\Lab4\lab4\top_dat.ncd
+OUTFILE=Z:\Documents\448\Lab4\lab4\top_dat.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=Z:\Documents\448\Lab4\lab4
+LICENSE=WebPack
+USER_INFO=211015572_0_0_312
